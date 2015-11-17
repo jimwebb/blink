@@ -6,9 +6,10 @@ The average length of a blink is 100-400 milliseconds, and this system is able t
 
 The Arduino is programmed to act like a USB keyboard and to deliver a space bar whenever a blink is detected. This in turn can be recieved by anything on a computer; in this case, we've built a couple of web pages with JavaScript listeners for any keypress (just because it's an experiment).
 
-The web pages. If these work properly, the viewer should never see a transition between states -- that happens while the eye is closed during the blink.
+Web page examples
 -------
-* index.html: Change the background color with every blink
-* index-1.html: Show a different animal picture with every blink
-* index-2.html: While the eyelid is closed (for 100-400 milliseconds), show a picture, in this case of Baywatch and Knight Rider star David Hasselhoff. If it's set properly, the viewer should *never* see the Hoff, though onlookers will. 
+If these work properly, the viewer should never see a transition between states -- that happens while the eye is closed during the blink.
+* [index.html](index.html): Change the background color with every blink
+* [index-1.html](index-1.html): Show a different animal picture with every blink
+* [index-2.html](index-2.html): While the eyelid is closed (for 100-400 milliseconds), show a picture, in this case of Baywatch and Knight Rider star David Hasselhoff. If it's set properly, the viewer should *never* see the Hoff, though onlookers will. 
 * [Play Flappy Bird](http://flappybird.io/?game) with your blinks!
